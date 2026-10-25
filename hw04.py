@@ -1,7 +1,7 @@
 # ------------------------------------------------------
 #        Name: Jae Harrison
-#       Peers: (add any collaborators)
-#  References: (anything you checked to solve this)
+#       Peers: none
+#  References: online text and slides
 # ------------------------------------------------------
 import sys
 
@@ -29,7 +29,7 @@ def check_text():
         else:
             print("Try again")
 
-
+#my two main problems were not correctly typing the print outs for Tasks 1 and 2, so pretty easy fixes
 
 # Task 2
 def check_greater():
