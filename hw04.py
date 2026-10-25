@@ -23,7 +23,7 @@ def check_text():
             return
         #if not, check for dog/Dog
         elif "dog" in sentence or "Dog" in sentence:
-            print('You used the word "dog/Dog"!')
+            print('You used the word "dog" or the word "Dog"!')
             return
         #if none of the words are used, repeat
         else:
@@ -44,10 +44,10 @@ def check_greater():
         second = int(input("Give me a second integer: "))
         #Compare values and stop if they are unequal
         if first > second:
-            print("First is greater!")
+            print("First is Greater")
             return
         elif second > first:
-            print("Second is greater!")
+            print("Second is Greater")
             return
         else:
             #in case int inputs are equal
